@@ -1,0 +1,13 @@
+name = "PandasIO"
+uuid = "766733f9-c551-4bf2-a189-908207a17cd1"
+authors = ["Micah Rufsvold <mjrufsvold@mathematica-mpr.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.9"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
